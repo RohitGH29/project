@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/introtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="20dp"
+            android:text="Please allow auto call recording on your device to get better experience"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/introdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/introtext"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:text="Please allow auto call recording on your device to get better experience"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <ImageView
+
+            android:id="@+id/introImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/introdesc"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="60sp"
+            android:src="@drawable/intro_call" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/introB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/black_border"
+            android:elevation="5dp"
+            android:padding="5dp"
+            android:text="I Got it, Continue"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:translationZ="5dp" />
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
